@@ -18,6 +18,7 @@ export class BaseProvider extends Component {
     }
     render () {
         let map = this.setup();
+        // this.props = {...this.props.children.props};
         return (
           <Provider value={map}>
             {this.props.children}

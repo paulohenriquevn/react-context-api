@@ -9,9 +9,9 @@ const Loading = ({ loading, message }) => {
         <div className='overlay-content'>
             <div className='wrapper'>
                 <Spinner
-                    name='pacman'
+                    name='ball-pulse-sync'
                     fadeIn='none'
-                    color='yellow'
+                    color='steelblue'
                 />
                 <span className='message'>
                     {message}
